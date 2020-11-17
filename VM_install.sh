@@ -106,7 +106,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh%
 git clone https://github.com/42Paris/norminette.git ~/.norminette/
 cd ~/.norminette/
 bundle
-echo 'alias norminette="~/.norminette/norminette.rb"\n' >> ~/.zshrc
+echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.zshrc
 
 # Install 42header vim plugin
 mkdir -p ~/.vim/plugin/
